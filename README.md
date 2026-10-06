@@ -1,6 +1,5 @@
 # Bosun
 <head>
-  <title>Bosun</title>
   <meta name="description" content="Bosun is a local server network for the Solar Proa vessel, designed to collect and visualize data from various sensors and microcontrollers.">
   <meta name="keywords" content="Bosun, Solar Proa, Local Server, ESP32, Raspberry Pi, Data Visualization, Sensor Data">
   <meta name="author" content="Inverated">
