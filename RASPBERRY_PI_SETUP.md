@@ -32,7 +32,7 @@ If ssh does not work, you may need to connect the Pi to an external screen and k
 
 ## 2 SSH into the Pi from Another Computer
 
-1. On Raspberry Pi 4 and below (check your model first), the USB-C port is power-only — you'll need an additional Ethernet cable to connect.
+1. On Raspberry Pi 4 and below (check your model first), the USB-C port is power-only, you'll need an additional Ethernet cable to connect.
 
 ## 3 Optimize Boot Time
 
@@ -55,7 +55,7 @@ If ssh does not work, you may need to connect the Pi to an external screen and k
 
 ## 4 Verify Network Connectivity (Before Upgrading Packages)
  
-`apt full-upgrade` requires a working internet connection — check this first if you hit connection errors.
+`apt full-upgrade` requires a working internet connection. Check this first if you hit connection errors.
  
 1. Check if Wi-Fi is scanning networks:
 ```bash
@@ -300,7 +300,9 @@ If ssh does not work, you may need to connect the Pi to an external screen and k
 
 ## 10 Note: AP vs. Wi-Fi Receiver Mode
 
-The Wi-Fi chip can only act as **either** an access point **or** a receiver at one time — switch back to receiving, or use an external Wi-Fi adapter.
+The Wi-Fi chip can only act as **either** an access point **or** a receiver at one time 
+
+Use an external Wi-Fi adapter or keep the pi offline only the code needs an update.
 
 1. Check the new Wi-Fi receiver's interface name (should be `wlan1`).
 2. Connect to a network on that interface:
