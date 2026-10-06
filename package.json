@@ -1,0 +1,20 @@
+{
+  "name": "Proa_Local_Server_Network",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shipshape-marine/bosun.git",
+  "author": "KQF <120025059+Inverated@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "install:yarn": "npm install -g yarn",
+    "start:seperate": "concurrently \"cd backend && npm start\" \"cd react_frontend && npm run dev\"",
+    "download:map": "cd backend && npm run download:map",
+    "rebuild": "cd backend && npm run rebuild && npm run download:map",
+    "start:all": "cd backend && npm run start:all"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.0.5",
+    "concurrently": "^10.0.3",
+    "simple-git": "^4.0.2"
+  }
+}

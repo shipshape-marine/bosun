@@ -1,0 +1,9 @@
+node_modules/
+*.db
+package-lock.json
+*.env
+*.db-shm
+*.db-wal
+backend/proa.db-shm
+backend/proa.db-wal
+backend/map-tiles/

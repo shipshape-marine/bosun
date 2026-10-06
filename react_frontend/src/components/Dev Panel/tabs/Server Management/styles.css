@@ -1,0 +1,32 @@
+.server-management-tab {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    text-align: center;
+}
+
+.server-management-tab h3 {
+    margin: 0;
+}
+
+.server-management-tab p {
+    margin: 0;
+}
+
+.server-management-status {
+    max-width: 70%;
+    word-break: break-word;
+}
+
+.server-management-status.success {
+    color: #2e7d32;
+}
+
+.server-management-status.error {
+    color: #d32f2f;
+}
+
+.server-management-status.info {
+    color: #1565c0;
+}
